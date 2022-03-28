@@ -4,6 +4,7 @@
     margin: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 
 body 
@@ -11,9 +12,9 @@ body
     display: grid;
     place-items: center;
     height: 100vh;
-    background: lightgrey;
     padding: 0;
     margin: 0;
+ 
 }
 
 #container 
@@ -21,12 +22,13 @@ body
     height: 400px;
     width: 400px;
     background:whitesmoke;
-    border: 1px solid darkcyan;
+    border: none;
+    border-radius: 4em;;
     position: relative;
 }
 
 #container h2 {
-    color: black;
+    color: #49454F;
     font-size: 35px;
     text-align: center;
     position: absolute;
@@ -42,7 +44,7 @@ body
     position: absolute;
     top: 30%;
     left: 35%;
-    color: lightseagreen;
+    color: #6750A4;
 }
 
 #buttons {
@@ -55,11 +57,11 @@ body
 #buttons button {
     height: 50px;
     width: 120px;
-    background: lightsteelblue;
+    background: #EADDFF;
     outline: none;
-    border-radius: 5px;
-    color: black;
-    border: 1px solid darkslategray;
+    border-radius: 30px;
+    color: #49454F;
+    border: none;
     cursor: pointer;
 }
 
